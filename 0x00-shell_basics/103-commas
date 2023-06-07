@@ -1,2 +1,2 @@
-#!/bin/bash'
-ls -pd * | sort -d '
+#!/bin/bash
+ls -d -1 .[!.]* [[:digit:][:alpha:]]* | sed 's/$/,/' | tr '\n' ' ' | sed 's/,$/\n/'
