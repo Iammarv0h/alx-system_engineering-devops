@@ -1,2 +1,2 @@
 #!/bin/bash'
-ls -pd * | sort -d | awk '{printf("%s, ", $0)} END {printf("\n")}'
+ls -pd * | sort -d '
