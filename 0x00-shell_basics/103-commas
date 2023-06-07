@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -apw
+ls -apvm
